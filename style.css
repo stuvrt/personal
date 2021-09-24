@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+
+html {
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgba(10, 2, 25, 1);
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+}
+
+h1 {
+    color: rgba(255, 255, 255, 1);
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+p {
+    margin-bottom: 24px;
+}
+
+span {
+    color: rgba(255, 255, 255, 1);
+    font-weight: 500;
+
+}
+
+.container {
+    padding: 140px 20px;
+    max-width: 520px;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 48px;
+}
+
+.about {
+    padding-bottom: 16px;
+}
+
+.work {
+    margin-bottom: 48px;
+}
+
+.logo {
+    padding-bottom: 32px;
+}
+
+.details {
+    display: flex;
+    padding-bottom: 16px;
+    align-items: center;
+}
+
+.item {
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    opacity: 0.6;
+    padding: 32px;
+    margin-top: 24px;
+    transition: all 0.4s ease 0s;
+    line-height: 24px;
+}
+
+.item:hover {
+    opacity: 1;
+}
+
+.item-image {
+    padding-right: 20px;
+}
+
+.item-top {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.name {
+    font-weight: 500;
+}
+
+.date {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.social {
+    padding-bottom: 48px;
+    display: inline-block;
+}
+
+.social-link {
+    opacity: 0.6;
+    padding-right: 20px;
+    transition: all 0.4s ease 0s;
+}
+
+.social-link:hover {
+    opacity: 1;
+}
+
+.footer {
+    color: rgba(255, 255, 255, 0.3);
+    font-size: 12px;
+    line-height: 16px;
+}
+
+a {
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+}
+
+.available {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    opacity: 0.6;
+    transition: all 0.4s ease 0s;
+}
+
+.available:hover {
+    opacity: 1;
+}
+
+.indicator {
+    background-color: rgba(0, 255, 190, 1);
+    height: 8px;
+    width: 8px;
+    border-radius: 4px;
+    margin-right: 12px;
+}
+
+.pd-8 {
+    padding-right: 8px;
+}
