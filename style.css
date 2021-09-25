@@ -104,7 +104,7 @@ span {
 }
 
 .social {
-    padding-bottom: 48px;
+    padding: 24px 0 48px 0;
     display: inline-block;
 }
 
@@ -122,6 +122,8 @@ span {
     color: rgba(255, 255, 255, 0.3);
     font-size: 12px;
     line-height: 16px;
+    border-top: rgba(255, 255, 255, 0.1) solid 1px;
+    padding-top: 24px;
 }
 
 a {
